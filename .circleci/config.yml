@@ -2,7 +2,6 @@
 # See: https://circleci.com/docs/2.0/configuration-reference
 version: 2
 
-
 jobs:
   build:
     docker:
@@ -44,7 +43,7 @@ jobs:
 
 # Invoke jobs via workflows
 # See: https://circleci.com/docs/2.0/configuration-reference/#workflows
-workflows:
-  say-hello-workflow:
-    jobs:
-      - build
+# workflows:
+#   default:
+#     jobs:
+#       - build
